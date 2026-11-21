@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" width="1080" height="540">
+  <defs>
+  <style>
+            .title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #0F172A; }
+            .subtitle { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #475569; }
+            .axis-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #0F172A; }
+            .tick-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; fill: #334155; }
+            .legend-text { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; fill: #0F172A; }
+            .annot { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; font-weight: 500; fill: #0F172A; }
+            .annot-bold { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #1B365D; }
+            .panel-title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; font-weight: 700; fill: #1B365D; }
+            .footer { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 10.5px; fill: #475569; }
+            </style>
+  <clipPath id="clip_78_98_425_355"><rect x="78" y="98" width="425" height="355"/></clipPath>
+  <marker id="arrow_7C3AED" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#7C3AED"/></marker>
+  <marker id="arrow_0D9488" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/></marker>
+  <clipPath id="clip_608_98_430_355"><rect x="608" y="98" width="430" height="355"/></clipPath>
+  <marker id="arrow_2563EB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/></marker>
+  <marker id="arrow_D97706" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#D97706"/></marker>
+  <marker id="arrow_475569" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1080" height="540" fill="#FFFFFF" rx="4"/>
+  <text x="540.0" y="30" text-anchor="middle" class="title">圖 15-2  3D 邏輯標準單元高度微縮與先進封裝垂直互連密度物理演進</text>
+  <text x="540.0" y="51" text-anchor="middle" class="subtitle">(a) FinFET → GAA → BSPDN → CFET 之標準單元軌道數與相對面積；(b) 垂直互連密度隨間距呈 1/p² 跨越五個數量級躍升</text>
+  <rect x="290.5" y="98.0" width="212.5" height="355.0" fill="#F5F3FF" opacity="0.55"/>
+  <text x="396.8" y="122.8" text-anchor="middle" class="annot-bold" opacity="0.88">GAA + BSPDN + CFET 立體時代</text>
+  <line x1="113.4" y1="98.0" x2="113.4" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="113.4" y1="453.0" x2="113.4" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="113.4" y="472.0" text-anchor="middle" class="tick-label">14nm Fin</text>
+  <line x1="184.2" y1="98.0" x2="184.2" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="184.2" y1="453.0" x2="184.2" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="184.2" y="472.0" text-anchor="middle" class="tick-label">7nm Fin</text>
+  <line x1="255.1" y1="98.0" x2="255.1" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="255.1" y1="453.0" x2="255.1" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="255.1" y="472.0" text-anchor="middle" class="tick-label">5nm Fin</text>
+  <line x1="325.9" y1="98.0" x2="325.9" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="325.9" y1="453.0" x2="325.9" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="325.9" y="472.0" text-anchor="middle" class="tick-label">2nm GAA</text>
+  <line x1="396.8" y1="98.0" x2="396.8" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="396.8" y1="453.0" x2="396.8" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="396.8" y="472.0" text-anchor="middle" class="tick-label">A16 BS</text>
+  <line x1="467.6" y1="98.0" x2="467.6" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="467.6" y1="453.0" x2="467.6" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="467.6" y="472.0" text-anchor="middle" class="tick-label">A10 CFET</text>
+  <line x1="78.0" y1="453.0" x2="503.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="453.0" x2="78.0" y2="453.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="457.0" text-anchor="end" class="tick-label">0</text>
+  <line x1="78.0" y1="385.4" x2="503.0" y2="385.4" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="385.4" x2="78.0" y2="385.4" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="389.4" text-anchor="end" class="tick-label">2</text>
+  <line x1="78.0" y1="317.8" x2="503.0" y2="317.8" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="317.8" x2="78.0" y2="317.8" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="321.8" text-anchor="end" class="tick-label">4</text>
+  <line x1="78.0" y1="250.1" x2="503.0" y2="250.1" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="250.1" x2="78.0" y2="250.1" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="254.1" text-anchor="end" class="tick-label">6</text>
+  <line x1="78.0" y1="182.5" x2="503.0" y2="182.5" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="182.5" x2="78.0" y2="182.5" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="186.5" text-anchor="end" class="tick-label">8</text>
+  <line x1="78.0" y1="114.9" x2="503.0" y2="114.9" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="114.9" x2="78.0" y2="114.9" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="118.9" text-anchor="end" class="tick-label">10</text>
+  <rect x="96.4" y="148.7" width="34.0" height="304.3" fill="#2563EB" fill-opacity="0.72" stroke="#1B365D" stroke-width="1.2" rx="3"/>
+  <text x="113.4" y="142.7" text-anchor="middle" font-size="11" font-weight="700" fill="#1B365D">9.0T</text>
+  <rect x="167.2" y="199.4" width="34.0" height="253.6" fill="#2563EB" fill-opacity="0.72" stroke="#1B365D" stroke-width="1.2" rx="3"/>
+  <text x="184.2" y="193.4" text-anchor="middle" font-size="11" font-weight="700" fill="#1B365D">7.5T</text>
+  <rect x="238.1" y="250.1" width="34.0" height="202.9" fill="#2563EB" fill-opacity="0.72" stroke="#1B365D" stroke-width="1.2" rx="3"/>
+  <text x="255.1" y="244.1" text-anchor="middle" font-size="11" font-weight="700" fill="#1B365D">6.0T</text>
+  <rect x="308.9" y="284.0" width="34.0" height="169.0" fill="#0D9488" fill-opacity="0.72" stroke="#1B365D" stroke-width="1.2" rx="3"/>
+  <text x="325.9" y="278.0" text-anchor="middle" font-size="11" font-weight="700" fill="#1B365D">5.0T</text>
+  <rect x="379.8" y="300.9" width="34.0" height="152.1" fill="#0D9488" fill-opacity="0.72" stroke="#1B365D" stroke-width="1.2" rx="3"/>
+  <text x="396.8" y="294.9" text-anchor="middle" font-size="11" font-weight="700" fill="#1B365D">4.5T</text>
+  <rect x="450.6" y="334.7" width="34.0" height="118.3" fill="#7C3AED" fill-opacity="0.72" stroke="#1B365D" stroke-width="1.2" rx="3"/>
+  <text x="467.6" y="328.7" text-anchor="middle" font-size="11" font-weight="700" fill="#1B365D">3.5T</text>
+  <rect x="78.0" y="98.0" width="425.0" height="355.0" fill="none" stroke="#334155" stroke-width="1.4"/>
+  <text x="290.5" y="86.0" text-anchor="middle" class="panel-title">(a) 標準單元軌道高度（Tracks）與相對面積縮減</text>
+  <text x="290.5" y="493.0" text-anchor="middle" class="axis-label">邏輯架構演進節點（DTCO / STCO）</text>
+  <text x="26.0" y="275.5" text-anchor="middle" class="axis-label" transform="rotate(-90 26.0 275.5)">標準單元軌道高度（Metal Tracks, T）</text>
+  <line x1="463.6" y1="196.7" x2="467.6" y2="334.7" stroke="#7C3AED" stroke-width="1.1" marker-end="url(#arrow_7C3AED)"/>
+  <text x="463.6" y="192.7" text-anchor="end" class="annot-bold" fill="#7C3AED">CFET 垂直疊合 n/pMOS（面積減逾 70%）</text>
+  <line x1="392.8" y1="256.9" x2="396.8" y2="300.9" stroke="#0D9488" stroke-width="1.1" marker-end="url(#arrow_0D9488)"/>
+  <text x="392.8" y="252.9" text-anchor="end" class="annot-bold" fill="#0D9488">BSPDN 釋放正面電源軌</text>
+  <rect x="608.0" y="98.0" width="212.5" height="355.0" fill="#F0FDFA" opacity="0.65"/>
+  <text x="714.2" y="122.8" text-anchor="middle" class="annot-bold" opacity="0.88">無焊料銅銅混合鍵合區</text>
+  <line x1="634.7" y1="98.0" x2="634.7" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="634.7" y1="453.0" x2="634.7" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="634.7" y="472.0" text-anchor="middle" class="tick-label">1</text>
+  <line x1="716.8" y1="98.0" x2="716.8" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="716.8" y1="453.0" x2="716.8" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="716.8" y="472.0" text-anchor="middle" class="tick-label">3</text>
+  <line x1="806.9" y1="98.0" x2="806.9" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="806.9" y1="453.0" x2="806.9" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="806.9" y="472.0" text-anchor="middle" class="tick-label">10</text>
+  <line x1="889.0" y1="98.0" x2="889.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="889.0" y1="453.0" x2="889.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="889.0" y="472.0" text-anchor="middle" class="tick-label">30</text>
+  <line x1="979.0" y1="98.0" x2="979.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="979.0" y1="453.0" x2="979.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="979.0" y="472.0" text-anchor="middle" class="tick-label">100</text>
+  <line x1="608.0" y1="404.3" x2="1038.0" y2="404.3" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="404.3" x2="608.0" y2="404.3" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="408.3" text-anchor="end" class="tick-label">10²</text>
+  <line x1="608.0" y1="334.7" x2="1038.0" y2="334.7" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="334.7" x2="608.0" y2="334.7" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="338.7" text-anchor="end" class="tick-label">10³</text>
+  <line x1="608.0" y1="265.0" x2="1038.0" y2="265.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="265.0" x2="608.0" y2="265.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="269.0" text-anchor="end" class="tick-label">10⁴</text>
+  <line x1="608.0" y1="195.4" x2="1038.0" y2="195.4" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="195.4" x2="608.0" y2="195.4" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="199.4" text-anchor="end" class="tick-label">10⁵</text>
+  <line x1="608.0" y1="125.7" x2="1038.0" y2="125.7" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="125.7" x2="608.0" y2="125.7" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="129.7" text-anchor="end" class="tick-label">10⁶</text>
+  <path d="M 617.99 112.22 L 619.58 113.51 L 621.17 114.80 L 622.77 116.09 L 624.36 117.38 L 625.96 118.67 L 627.55 119.96 L 629.14 121.24 L 630.74 122.53 L 632.33 123.82 L 633.93 125.11 L 635.52 126.40 L 637.12 127.69 L 638.71 128.98 L 640.30 130.27 L 641.90 131.56 L 643.49 132.85 L 645.09 134.14 L 646.68 135.43 L 648.27 136.72 L 649.87 138.01 L 651.46 139.30 L 653.06 140.59 L 654.65 141.88 L 656.25 143.17 L 657.84 144.46 L 659.43 145.75 L 661.03 147.04 L 662.62 148.33 L 664.22 149.62 L 665.81 150.91 L 667.40 152.20 L 669.00 153.49 L 670.59 154.78 L 672.19 156.07 L 673.78 157.36 L 675.38 158.65 L 676.97 159.94 L 678.56 161.23 L 680.16 162.52 L 681.75 163.81 L 683.35 165.09 L 684.94 166.38 L 686.53 167.67 L 688.13 168.96 L 689.72 170.25 L 691.32 171.54 L 692.91 172.83 L 694.50 174.12 L 696.10 175.41 L 697.69 176.70 L 699.29 177.99 L 700.88 179.28 L 702.48 180.57 L 704.07 181.86 L 705.66 183.15 L 707.26 184.44 L 708.85 185.73 L 710.45 187.02 L 712.04 188.31 L 713.63 189.60 L 715.23 190.89 L 716.82 192.18 L 718.42 193.47 L 720.01 194.76 L 721.61 196.05 L 723.20 197.34 L 724.79 198.63 L 726.39 199.92 L 727.98 201.21 L 729.58 202.50 L 731.17 203.79 L 732.76 205.08 L 734.36 206.37 L 735.95 207.66 L 737.55 208.94 L 739.14 210.23 L 740.74 211.52 L 742.33 212.81 L 743.92 214.10 L 745.52 215.39 L 747.11 216.68 L 748.71 217.97 L 750.30 219.26 L 751.89 220.55 L 753.49 221.84 L 755.08 223.13 L 756.68 224.42 L 758.27 225.71 L 759.87 227.00 L 761.46 228.29 L 763.05 229.58 L 764.65 230.87 L 766.24 232.16 L 767.84 233.45 L 769.43 234.74 L 771.02 236.03 L 772.62 237.32 L 774.21 238.61 L 775.81 239.90 L 777.40 241.19 L 779.00 242.48 L 780.59 243.77 L 782.18 245.06 L 783.78 246.35 L 785.37 247.64 L 786.97 248.93 L 788.56 250.22 L 790.15 251.50 L 791.75 252.79 L 793.34 254.08 L 794.94 255.37 L 796.53 256.66 L 798.13 257.95 L 799.72 259.24 L 801.31 260.53 L 802.91 261.82 L 804.50 263.11 L 806.10 264.40 L 807.69 265.69 L 809.28 266.98 L 810.88 268.27 L 812.47 269.56 L 814.07 270.85 L 815.66 272.14 L 817.26 273.43 L 818.85 274.72 L 820.44 276.01 L 822.04 277.30 L 823.63 278.59 L 825.23 279.88 L 826.82 281.17 L 828.41 282.46 L 830.01 283.75 L 831.60 285.04 L 833.20 286.33 L 834.79 287.62 L 836.39 288.91 L 837.98 290.20 L 839.57 291.49 L 841.17 292.78 L 842.76 294.07 L 844.36 295.35 L 845.95 296.64 L 847.54 297.93 L 849.14 299.22 L 850.73 300.51 L 852.33 301.80 L 853.92 303.09 L 855.52 304.38 L 857.11 305.67 L 858.70 306.96 L 860.30 308.25 L 861.89 309.54 L 863.49 310.83 L 865.08 312.12 L 866.67 313.41 L 868.27 314.70 L 869.86 315.99 L 871.46 317.28 L 873.05 318.57 L 874.65 319.86 L 876.24 321.15 L 877.83 322.44 L 879.43 323.73 L 881.02 325.02 L 882.62 326.31 L 884.21 327.60 L 885.80 328.89 L 887.40 330.18 L 888.99 331.47 L 890.59 332.76 L 892.18 334.05 L 893.78 335.34 L 895.37 336.63 L 896.96 337.92 L 898.56 339.20 L 900.15 340.49 L 901.75 341.78 L 903.34 343.07 L 904.93 344.36 L 906.53 345.65 L 908.12 346.94 L 909.72 348.23 L 911.31 349.52 L 912.90 350.81 L 914.50 352.10 L 916.09 353.39 L 917.69 354.68 L 919.28 355.97 L 920.88 357.26 L 922.47 358.55 L 924.06 359.84 L 925.66 361.13 L 927.25 362.42 L 928.85 363.71 L 930.44 365.00 L 932.03 366.29 L 933.63 367.58 L 935.22 368.87 L 936.82 370.16 L 938.41 371.45 L 940.01 372.74 L 941.60 374.03 L 943.19 375.32 L 944.79 376.61 L 946.38 377.90 L 947.98 379.19 L 949.57 380.48 L 951.16 381.77 L 952.76 383.05 L 954.35 384.34 L 955.95 385.63 L 957.54 386.92 L 959.14 388.21 L 960.73 389.50 L 962.32 390.79 L 963.92 392.08 L 965.51 393.37 L 967.11 394.66 L 968.70 395.95 L 970.29 397.24 L 971.89 398.53 L 973.48 399.82 L 975.08 401.11 L 976.67 402.40 L 978.27 403.69 L 979.86 404.98 L 981.45 406.27 L 983.05 407.56 L 984.64 408.85 L 986.24 410.14 L 987.83 411.43 L 989.42 412.72 L 991.02 414.01 L 992.61 415.30 L 994.21 416.59 L 995.80 417.88 L 997.40 419.17 L 998.99 420.46 L 1000.58 421.75 L 1002.18 423.04 L 1003.77 424.33 L 1005.37 425.61 L 1006.96 426.90 L 1008.55 428.19 L 1010.15 429.48 L 1011.74 430.77 L 1013.34 432.06 L 1014.93 433.35 L 1016.53 434.64 L 1018.12 435.93 L 1019.71 437.22 L 1021.31 438.51 L 1022.90 439.80 L 1024.50 441.09 L 1026.09 442.38 L 1027.68 443.67 L 1029.28 444.96 L 1030.87 446.25" fill="none" stroke="#1B365D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#clip_608_98_430_355)"/>
+  <circle cx="1009.36" cy="428.85" r="5.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_608_98_430_355)"/>
+  <circle cx="900.54" cy="340.81" r="5.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_608_98_430_355)"/>
+  <circle cx="798.98" cy="258.64" r="5.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_608_98_430_355)"/>
+  <circle cx="634.67" cy="125.72" r="5.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_608_98_430_355)"/>
+  <rect x="608.0" y="98.0" width="430.0" height="355.0" fill="none" stroke="#334155" stroke-width="1.4"/>
+  <text x="823.0" y="86.0" text-anchor="middle" class="panel-title">(b) 先進封裝垂直互連密度 vs. 鍵合間距（ρ = 1/p²）</text>
+  <text x="823.0" y="493.0" text-anchor="middle" class="axis-label">垂直凸塊／鍵合間距 Pitch p（μm，對數）</text>
+  <text x="556.0" y="275.5" text-anchor="middle" class="axis-label" transform="rotate(-90 556.0 275.5)">每平方毫米互連數（IO / mm²，對數）</text>
+  <line x1="660.7" y1="127.7" x2="634.7" y2="125.7" stroke="#0D9488" stroke-width="1.1" marker-end="url(#arrow_0D9488)"/>
+  <text x="660.7" y="137.7" text-anchor="start" class="annot-bold" fill="#0D9488">次微米 Hybrid Bonding (1 μm: 10⁶/mm²)</text>
+  <line x1="815.0" y1="240.6" x2="799.0" y2="258.6" stroke="#2563EB" stroke-width="1.1" marker-end="url(#arrow_2563EB)"/>
+  <text x="815.0" y="236.6" text-anchor="start" class="annot-bold" fill="#2563EB">SoIC-X / Foveros Direct (9 μm: 1.2×10⁴)</text>
+  <line x1="886.5" y1="364.8" x2="900.5" y2="340.8" stroke="#D97706" stroke-width="1.1" marker-end="url(#arrow_D97706)"/>
+  <text x="886.5" y="374.8" text-anchor="end" class="annot-bold" fill="#D97706">CoWoS / HBM3E 微凸塊 (35 μm: 816)</text>
+  <line x1="981.4" y1="424.8" x2="1009.4" y2="428.8" stroke="#475569" stroke-width="1.1" marker-end="url(#arrow_475569)"/>
+  <text x="981.4" y="434.8" text-anchor="end" class="annot-bold" fill="#475569">C4 覆晶焊球 (150 μm: 44)</text>
+  <text x="28" y="528" class="footer">物理幾何關係：方形陣列互連密度 ρ = 1 / p²（IRDS More than Moore &amp; Packaging 2024–2025 基準）。</text>
+</svg>

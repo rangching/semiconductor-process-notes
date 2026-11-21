@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" width="1080" height="540">
+  <defs>
+  <style>
+            .title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #0F172A; }
+            .subtitle { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #475569; }
+            .axis-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #0F172A; }
+            .tick-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; fill: #334155; }
+            .legend-text { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; fill: #0F172A; }
+            .annot { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; font-weight: 500; fill: #0F172A; }
+            .annot-bold { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #1B365D; }
+            .panel-title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; font-weight: 700; fill: #1B365D; }
+            .footer { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 10.5px; fill: #475569; }
+            </style>
+  <clipPath id="clip_78_98_425_355"><rect x="78" y="98" width="425" height="355"/></clipPath>
+  <marker id="arrow_DC2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/></marker>
+  <clipPath id="clip_608_98_430_355"><rect x="608" y="98" width="430" height="355"/></clipPath>
+  <marker id="arrow_D97706" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#D97706"/></marker>
+  <marker id="arrow_2563EB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1080" height="540" fill="#FFFFFF" rx="4"/>
+  <text x="540.0" y="30" text-anchor="middle" class="title">圖 13-1  統計製程控制（SPC X̄ 管制圖）與 EWMA Run-to-Run 進階製程控制（APC）</text>
+  <text x="540.0" y="51" text-anchor="middle" class="subtitle">(a) 閘極 CD 之 SPC 管制上下限與異常漂移警報；(b) 雙重 EWMA APC 即時補償機台線性漂移大幅提升 C_pk</text>
+  <rect x="382.3" y="98.0" width="120.7" height="355.0" fill="#FEF3C7" opacity="0.6"/>
+  <text x="442.6" y="122.8" text-anchor="middle" class="annot-bold" opacity="0.88">失控警報區 (OOC)</text>
+  <line x1="78.0" y1="98.0" x2="78.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="78.0" y1="453.0" x2="78.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="78.0" y="472.0" text-anchor="middle" class="tick-label">1</text>
+  <line x1="164.9" y1="98.0" x2="164.9" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="164.9" y1="453.0" x2="164.9" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="164.9" y="472.0" text-anchor="middle" class="tick-label">10</text>
+  <line x1="261.5" y1="98.0" x2="261.5" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="261.5" y1="453.0" x2="261.5" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="261.5" y="472.0" text-anchor="middle" class="tick-label">20</text>
+  <line x1="358.1" y1="98.0" x2="358.1" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="358.1" y1="453.0" x2="358.1" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="358.1" y="472.0" text-anchor="middle" class="tick-label">30</text>
+  <line x1="454.7" y1="98.0" x2="454.7" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="454.7" y1="453.0" x2="454.7" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="454.7" y="472.0" text-anchor="middle" class="tick-label">40</text>
+  <line x1="503.0" y1="98.0" x2="503.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="503.0" y1="453.0" x2="503.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="503.0" y="472.0" text-anchor="middle" class="tick-label">45</text>
+  <line x1="78.0" y1="438.2" x2="503.0" y2="438.2" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="438.2" x2="78.0" y2="438.2" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="442.2" text-anchor="end" class="tick-label">13</text>
+  <line x1="78.0" y1="379.0" x2="503.0" y2="379.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="379.0" x2="78.0" y2="379.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="383.0" text-anchor="end" class="tick-label">13.4</text>
+  <line x1="78.0" y1="290.3" x2="503.0" y2="290.3" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="290.3" x2="78.0" y2="290.3" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="294.3" text-anchor="end" class="tick-label">14</text>
+  <line x1="78.0" y1="201.5" x2="503.0" y2="201.5" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="201.5" x2="78.0" y2="201.5" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="205.5" text-anchor="end" class="tick-label">14.6</text>
+  <line x1="78.0" y1="142.4" x2="503.0" y2="142.4" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="73.0" y1="142.4" x2="78.0" y2="142.4" stroke="#334155" stroke-width="1.2"/>
+  <text x="69.0" y="146.4" text-anchor="end" class="tick-label">15</text>
+  <line x1="78.0" y1="201.5" x2="503.0" y2="201.5" stroke="#DC2626" stroke-width="1.4" stroke-dasharray="6,4"/>
+  <line x1="78.0" y1="290.3" x2="503.0" y2="290.3" stroke="#0D9488" stroke-width="1.4" stroke-dasharray="4,4"/>
+  <line x1="78.0" y1="379.0" x2="503.0" y2="379.0" stroke="#DC2626" stroke-width="1.4" stroke-dasharray="6,4"/>
+  <path d="M 78.00 242.41 L 87.66 265.82 L 97.32 309.93 L 106.98 260.87 L 116.64 303.39 L 126.30 290.93 L 135.95 298.88 L 145.61 281.90 L 155.27 252.19 L 164.93 306.73 L 174.59 319.44 L 184.25 319.96 L 193.91 318.94 L 203.57 332.63 L 213.23 317.30 L 222.89 252.03 L 232.55 307.84 L 242.20 282.69 L 251.86 326.29 L 261.52 285.27 L 271.18 341.79 L 280.84 310.96 L 290.50 223.59 L 300.16 307.54 L 309.82 257.16 L 319.48 276.83 L 329.14 294.82 L 338.80 309.58 L 348.45 252.22 L 358.11 295.54 L 367.77 245.11 L 377.43 311.56 L 387.09 222.03 L 396.75 204.04 L 406.41 200.86 L 416.07 242.48 L 425.73 219.71 L 435.39 199.94 L 445.05 213.48 L 454.70 162.27 L 464.36 159.00 L 474.02 228.38 L 483.68 217.97 L 493.34 196.56 L 503.00 149.26" fill="none" stroke="#1B365D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="78.00" cy="242.41" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="87.66" cy="265.82" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="97.32" cy="309.93" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="106.98" cy="260.87" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="116.64" cy="303.39" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="126.30" cy="290.93" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="135.95" cy="298.88" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="145.61" cy="281.90" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="155.27" cy="252.19" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="164.93" cy="306.73" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="174.59" cy="319.44" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="184.25" cy="319.96" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="193.91" cy="318.94" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="203.57" cy="332.63" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="213.23" cy="317.30" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="222.89" cy="252.03" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="232.55" cy="307.84" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="242.20" cy="282.69" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="251.86" cy="326.29" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="261.52" cy="285.27" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="271.18" cy="341.79" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="280.84" cy="310.96" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="290.50" cy="223.59" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="300.16" cy="307.54" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="309.82" cy="257.16" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="319.48" cy="276.83" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="329.14" cy="294.82" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="338.80" cy="309.58" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="348.45" cy="252.22" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="358.11" cy="295.54" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="367.77" cy="245.11" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="377.43" cy="311.56" r="3.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="387.09" cy="222.03" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="396.75" cy="204.04" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="406.41" cy="200.86" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="416.07" cy="242.48" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="425.73" cy="219.71" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="435.39" cy="199.94" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="445.05" cy="213.48" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="454.70" cy="162.27" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="464.36" cy="159.00" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="474.02" cy="228.38" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="483.68" cy="217.97" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="493.34" cy="196.56" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <circle cx="503.00" cy="149.26" r="4.0" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_78_98_425_355)"/>
+  <rect x="78.0" y="98.0" width="425.0" height="355.0" fill="none" stroke="#334155" stroke-width="1.4"/>
+  <text x="290.5" y="86.0" text-anchor="middle" class="panel-title">(a) 閘極 CD 統計製程管制圖（目標 14.0 ± 0.6 nm）</text>
+  <text x="290.5" y="493.0" text-anchor="middle" class="axis-label">晶圓批次編號（Lot / Run Number）</text>
+  <text x="26.0" y="275.5" text-anchor="middle" class="axis-label" transform="rotate(-90 26.0 275.5)">量測平均閘極關鍵尺寸 CD（nm）</text>
+  <text x="269.2" y="195.5" text-anchor="start" class="annot" fill="#DC2626">UCL = 14.60 nm (+3σ)</text>
+  <text x="494.5" y="284.3" text-anchor="end" class="annot" fill="#0D9488">CL = 14.00 nm</text>
+  <text x="269.2" y="373.0" text-anchor="start" class="annot" fill="#DC2626">LCL = 13.40 nm (−3σ)</text>
+  <line x1="384.4" y1="158.9" x2="406.4" y2="200.9" stroke="#DC2626" stroke-width="1.1" marker-end="url(#arrow_DC2626)"/>
+  <text x="384.4" y="154.9" text-anchor="end" class="annot-bold" fill="#DC2626">Western Electric 規則觸發停機</text>
+  <line x1="608.0" y1="98.0" x2="608.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="608.0" y1="453.0" x2="608.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="608.0" y="472.0" text-anchor="middle" class="tick-label">1</text>
+  <line x1="687.0" y1="98.0" x2="687.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="687.0" y1="453.0" x2="687.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="687.0" y="472.0" text-anchor="middle" class="tick-label">10</text>
+  <line x1="774.7" y1="98.0" x2="774.7" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="774.7" y1="453.0" x2="774.7" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="774.7" y="472.0" text-anchor="middle" class="tick-label">20</text>
+  <line x1="862.5" y1="98.0" x2="862.5" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="862.5" y1="453.0" x2="862.5" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="862.5" y="472.0" text-anchor="middle" class="tick-label">30</text>
+  <line x1="950.2" y1="98.0" x2="950.2" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="950.2" y1="453.0" x2="950.2" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="950.2" y="472.0" text-anchor="middle" class="tick-label">40</text>
+  <line x1="1038.0" y1="98.0" x2="1038.0" y2="453.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="1038.0" y1="453.0" x2="1038.0" y2="458.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="1038.0" y="472.0" text-anchor="middle" class="tick-label">50</text>
+  <line x1="608.0" y1="432.1" x2="1038.0" y2="432.1" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="432.1" x2="608.0" y2="432.1" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="436.1" text-anchor="end" class="tick-label">13.2</text>
+  <line x1="608.0" y1="348.6" x2="1038.0" y2="348.6" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="348.6" x2="608.0" y2="348.6" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="352.6" text-anchor="end" class="tick-label">14</text>
+  <line x1="608.0" y1="265.1" x2="1038.0" y2="265.1" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="265.1" x2="608.0" y2="265.1" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="269.1" text-anchor="end" class="tick-label">14.8</text>
+  <line x1="608.0" y1="181.5" x2="1038.0" y2="181.5" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="181.5" x2="608.0" y2="181.5" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="185.5" text-anchor="end" class="tick-label">15.6</text>
+  <line x1="608.0" y1="118.9" x2="1038.0" y2="118.9" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="603.0" y1="118.9" x2="608.0" y2="118.9" stroke="#334155" stroke-width="1.2"/>
+  <text x="599.0" y="122.9" text-anchor="end" class="tick-label">16.2</text>
+  <line x1="608.0" y1="265.1" x2="1038.0" y2="265.1" stroke="#DC2626" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <line x1="608.0" y1="348.6" x2="1038.0" y2="348.6" stroke="#475569" stroke-width="1.4" stroke-dasharray="3,3"/>
+  <line x1="608.0" y1="432.1" x2="1038.0" y2="432.1" stroke="#DC2626" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <path d="M 608.00 366.81 L 616.78 339.41 L 625.55 384.84 L 634.33 305.56 L 643.10 319.31 L 651.88 337.02 L 660.65 333.83 L 669.43 316.03 L 678.20 325.50 L 686.98 320.89 L 695.76 295.50 L 704.53 296.57 L 713.31 306.21 L 722.08 303.04 L 730.86 293.73 L 739.63 307.88 L 748.41 299.39 L 757.18 273.87 L 765.96 285.81 L 774.73 310.73 L 783.51 286.46 L 792.29 256.76 L 801.06 273.53 L 809.84 267.95 L 818.61 246.14 L 827.39 215.32 L 836.16 269.96 L 844.94 218.95 L 853.71 274.52 L 862.49 238.59 L 871.27 265.82 L 880.04 204.26 L 888.82 212.49 L 897.59 201.86 L 906.37 244.68 L 915.14 204.96 L 923.92 228.95 L 932.69 223.88 L 941.47 198.09 L 950.24 185.93 L 959.02 197.72 L 967.80 213.18 L 976.57 214.07 L 985.35 158.27 L 994.12 174.15 L 1002.90 167.61 L 1011.67 130.33 L 1020.45 195.57 L 1029.22 114.38 L 1037.56 98.00" fill="none" stroke="#D97706" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,3" clip-path="url(#clip_608_98_430_355)"/>
+  <path d="M 608.00 366.81 L 616.78 331.25 L 625.55 382.93 L 634.33 288.44 L 643.10 326.39 L 651.88 356.71 L 660.65 353.99 L 669.43 336.60 L 678.20 353.39 L 686.98 349.28 L 695.76 325.44 L 704.53 338.39 L 713.31 355.80 L 722.08 352.99 L 730.86 344.14 L 739.63 361.99 L 748.41 349.33 L 757.18 323.91 L 765.96 347.20 L 774.73 375.05 L 783.51 341.02 L 792.29 314.28 L 801.06 346.66 L 809.84 345.02 L 818.61 327.57 L 827.39 308.80 L 836.16 385.24 L 844.94 324.52 L 853.71 393.51 L 862.49 341.73 L 871.27 371.91 L 880.04 300.39 L 888.82 328.66 L 897.59 329.64 L 906.37 384.88 L 915.14 333.84 L 923.92 365.61 L 932.69 355.14 L 941.47 326.89 L 950.24 324.30 L 959.02 348.64 L 967.80 367.53 L 976.57 362.86 L 985.35 301.59 L 994.12 338.09 L 1002.90 339.80 L 1011.67 310.34 L 1020.45 396.73 L 1029.22 300.60 L 1038.00 306.45" fill="none" stroke="#2563EB" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#clip_608_98_430_355)"/>
+  <rect x="608.0" y="98.0" width="430.0" height="355.0" fill="none" stroke="#334155" stroke-width="1.4"/>
+  <text x="823.0" y="86.0" text-anchor="middle" class="panel-title">(b) 開迴路機台漂移 vs. 雙重 EWMA APC 回饋控制</text>
+  <text x="823.0" y="493.0" text-anchor="middle" class="axis-label">連續處理晶圓批數（Run Number）</text>
+  <text x="556.0" y="275.5" text-anchor="middle" class="axis-label" transform="rotate(-90 556.0 275.5)">量測輸出關鍵尺寸 CD（nm）</text>
+  <text x="788.6" y="259.1" text-anchor="start" class="annot" fill="#DC2626">規格上限 USL = 14.80 nm</text>
+  <text x="1029.4" y="426.1" text-anchor="end" class="annot" fill="#DC2626">規格下限 LSL = 13.20 nm</text>
+  <line x1="920.7" y1="199.9" x2="932.7" y2="223.9" stroke="#D97706" stroke-width="1.1" marker-end="url(#arrow_D97706)"/>
+  <text x="920.7" y="195.9" text-anchor="end" class="annot-bold" fill="#D97706">無控制漂移超規（RMSE = 1.10 nm）</text>
+  <line x1="760.7" y1="411.1" x2="774.7" y2="375.1" stroke="#2563EB" stroke-width="1.1" marker-end="url(#arrow_2563EB)"/>
+  <text x="760.7" y="421.1" text-anchor="middle" class="annot-bold" fill="#2563EB">EWMA APC 鎖定目標（RMSE = 0.25 nm）</text>
+  <rect x="620.9" y="112.2" width="248.0" height="52.0" rx="5" fill="#FFFFFF" fill-opacity="0.93" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="630.9" y1="125.2" x2="654.9" y2="125.2" stroke="#D97706" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="662.9" y="129.2" class="legend-text">無 APC 開迴路（腔壁沉積漂移）</text>
+  <line x1="630.9" y1="145.2" x2="654.9" y2="145.2" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="662.9" y="149.2" class="legend-text">雙重 EWMA R2R APC 即時補償</text>
+  <text x="28" y="528" class="footer">依據 May &amp; Spanos《半導體製造與過程控制基礎》SPC 管制圖與雙重 EWMA Run-to-Run 控制器演算法模擬。</text>
+</svg>

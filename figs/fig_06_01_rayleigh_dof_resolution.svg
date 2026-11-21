@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 565" width="1020" height="565">
+  <defs>
+  <style>
+            .title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #0F172A; }
+            .subtitle { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #475569; }
+            .axis-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #0F172A; }
+            .tick-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; fill: #334155; }
+            .legend-text { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; fill: #0F172A; }
+            .annot { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; font-weight: 500; fill: #0F172A; }
+            .annot-bold { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #1B365D; }
+            .panel-title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; font-weight: 700; fill: #1B365D; }
+            .footer { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 10.5px; fill: #475569; }
+            </style>
+  <clipPath id="clip_92_92_880_385"><rect x="92" y="92" width="880" height="385"/></clipPath>
+  <marker id="arrow_7C3AED" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#7C3AED"/></marker>
+  <marker id="arrow_DC2626" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1020" height="565" fill="#FFFFFF" rx="4"/>
+  <text x="510.0" y="30" text-anchor="middle" class="title">圖 6-1  瑞利判據最小半間距解析度（R）與景深（DOF）跨世代定量演進</text>
+  <text x="510.0" y="51" text-anchor="middle" class="subtitle">比較自 g-line (436 nm) 至 0.55 NA High-NA EUV (13.5 nm) 之單次曝光物理極限（半對數座標）</text>
+  <rect x="92.0" y="92.0" width="631.3" height="385.0" fill="#EFF6FF" opacity="0.65"/>
+  <text x="407.7" y="117.0" text-anchor="middle" class="annot-bold" opacity="0.88">折射式深紫外光微影（DUV Refractive Optics）</text>
+  <rect x="723.3" y="92.0" width="248.7" height="385.0" fill="#F5F3FF" opacity="0.65"/>
+  <text x="847.7" y="117.0" text-anchor="middle" class="annot-bold" opacity="0.88">全反射式極紫外光（EUV）</text>
+  <line x1="149.4" y1="92.0" x2="149.4" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="149.4" y1="477.0" x2="149.4" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="149.4" y="496.0" text-anchor="middle" class="tick-label">g-line 436nm</text>
+  <line x1="276.9" y1="92.0" x2="276.9" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="276.9" y1="477.0" x2="276.9" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="276.9" y="496.0" text-anchor="middle" class="tick-label">i-line 365nm</text>
+  <line x1="404.5" y1="92.0" x2="404.5" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="404.5" y1="477.0" x2="404.5" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="404.5" y="496.0" text-anchor="middle" class="tick-label">KrF 248nm</text>
+  <line x1="532.0" y1="92.0" x2="532.0" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="532.0" y1="477.0" x2="532.0" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="532.0" y="496.0" text-anchor="middle" class="tick-label">ArF 乾式 193nm</text>
+  <line x1="659.5" y1="92.0" x2="659.5" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="659.5" y1="477.0" x2="659.5" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="659.5" y="496.0" text-anchor="middle" class="tick-label">ArF 浸潤 193i</text>
+  <line x1="787.1" y1="92.0" x2="787.1" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="787.1" y1="477.0" x2="787.1" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="787.1" y="496.0" text-anchor="middle" class="tick-label">Low-NA EUV 0.33</text>
+  <line x1="914.6" y1="92.0" x2="914.6" y2="477.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="914.6" y1="477.0" x2="914.6" y2="482.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="914.6" y="496.0" text-anchor="middle" class="tick-label">High-NA EUV 0.55</text>
+  <line x1="92.0" y1="470.8" x2="972.0" y2="470.8" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="470.8" x2="92.0" y2="470.8" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="474.8" text-anchor="end" class="tick-label">5</text>
+  <line x1="92.0" y1="429.7" x2="972.0" y2="429.7" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="429.7" x2="92.0" y2="429.7" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="433.7" text-anchor="end" class="tick-label">10</text>
+  <line x1="92.0" y1="388.7" x2="972.0" y2="388.7" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="388.7" x2="92.0" y2="388.7" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="392.7" text-anchor="end" class="tick-label">20</text>
+  <line x1="92.0" y1="334.4" x2="972.0" y2="334.4" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="334.4" x2="92.0" y2="334.4" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="338.4" text-anchor="end" class="tick-label">50</text>
+  <line x1="92.0" y1="293.4" x2="972.0" y2="293.4" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="293.4" x2="92.0" y2="293.4" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="297.4" text-anchor="end" class="tick-label">100</text>
+  <line x1="92.0" y1="252.3" x2="972.0" y2="252.3" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="252.3" x2="92.0" y2="252.3" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="256.3" text-anchor="end" class="tick-label">200</text>
+  <line x1="92.0" y1="198.1" x2="972.0" y2="198.1" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="198.1" x2="92.0" y2="198.1" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="202.1" text-anchor="end" class="tick-label">500</text>
+  <line x1="92.0" y1="157.0" x2="972.0" y2="157.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="157.0" x2="92.0" y2="157.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="161.0" text-anchor="end" class="tick-label">1000</text>
+  <line x1="92.0" y1="116.0" x2="972.0" y2="116.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="87.0" y1="116.0" x2="92.0" y2="116.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="83.0" y="120.0" text-anchor="end" class="tick-label">2000</text>
+  <path d="M 149.39 184.43 L 276.93 221.88 L 404.46 265.77 L 532.00 299.08 L 659.54 347.59 L 787.07 413.77 L 914.61 444.02" fill="none" stroke="#2563EB" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="149.39" cy="184.43" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="276.93" cy="221.88" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="404.46" cy="265.77" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="532.00" cy="299.08" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="659.54" cy="347.59" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="787.07" cy="413.77" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="914.61" cy="444.02" r="5.0" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <path d="M 149.39 155.94 L 276.93 203.51 L 404.46 247.54 L 532.00 292.23 L 659.54 332.80 L 787.07 323.39 L 914.61 387.29" fill="none" stroke="#DC2626" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6,4" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="149.39" cy="155.94" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="276.93" cy="203.51" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="404.46" cy="247.54" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="532.00" cy="292.23" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="659.54" cy="332.80" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="787.07" cy="323.39" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <circle cx="914.61" cy="387.29" r="4.8" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_92_92_880_385)"/>
+  <rect x="92.0" y="92.0" width="880.0" height="385.0" fill="none" stroke="#334155" stroke-width="1.4"/>
+  <text x="532.0" y="517.0" text-anchor="middle" class="axis-label">微影光源與曝光世代（Lithography Generation）</text>
+  <text x="40.0" y="284.5" text-anchor="middle" class="axis-label" transform="rotate(-90 40.0 284.5)">特徵尺度：解析度 R / 景深 DOF（nm）</text>
+  <text x="149.4" y="143.9" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=1019nm</text>
+  <text x="149.4" y="203.4" text-anchor="middle" class="annot-bold" fill="#1B365D">R=629.8nm</text>
+  <text x="276.9" y="191.5" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=456nm</text>
+  <text x="276.9" y="240.9" text-anchor="middle" class="annot-bold" fill="#1B365D">R=334.6nm</text>
+  <text x="404.5" y="235.5" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=217nm</text>
+  <text x="404.5" y="284.8" text-anchor="middle" class="annot-bold" fill="#1B365D">R=159.4nm</text>
+  <text x="532.0" y="280.2" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=102nm</text>
+  <text x="532.0" y="318.1" text-anchor="middle" class="annot-bold" fill="#1B365D">R=90.8nm</text>
+  <text x="659.5" y="320.8" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=51nm</text>
+  <text x="659.5" y="366.6" text-anchor="middle" class="annot-bold" fill="#1B365D">R=40.0nm</text>
+  <text x="787.1" y="311.4" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=60nm</text>
+  <text x="787.1" y="432.8" text-anchor="middle" class="annot-bold" fill="#1B365D">R=13.1nm</text>
+  <text x="914.6" y="375.3" text-anchor="middle" class="annot-bold" fill="#DC2626">DOF=20nm</text>
+  <text x="914.6" y="463.0" text-anchor="middle" class="annot-bold" fill="#1B365D">R=7.9nm</text>
+  <line x1="842.1" y1="199.6" x2="787.1" y2="323.6" stroke="#7C3AED" stroke-width="1.1" marker-end="url(#arrow_7C3AED)"/>
+  <text x="842.1" y="195.6" text-anchor="end" class="annot-bold" fill="#7C3AED">λ 驟降 14.3×：0.33 EUV 兼得 13nm 解析與 ~60nm DOF</text>
+  <line x1="902.6" y1="289.2" x2="914.6" y2="387.2" stroke="#DC2626" stroke-width="1.1" marker-end="url(#arrow_DC2626)"/>
+  <text x="902.6" y="285.2" text-anchor="end" class="annot" fill="#DC2626">0.55 High-NA 單曝達 ~8nm，但 DOF 驟降至 ~20nm</text>
+  <rect x="109.6" y="396.2" width="330.0" height="52.0" rx="5" fill="#FFFFFF" fill-opacity="0.93" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="119.6" y1="409.2" x2="143.6" y2="409.2" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="151.6" y="413.2" class="legend-text">單次曝光半間距解析度 R = k₁λ / NA（nm）</text>
+  <line x1="119.6" y1="429.2" x2="143.6" y2="429.2" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="151.6" y="433.2" class="legend-text">高數值孔徑景深 DOF（k₂ = 0.5，nm）</text>
+  <text x="28" y="553" class="footer">數值驗證：193i (n=1.44, NA=1.35, k₁=0.28) R=40.0 nm；Low-NA EUV (0.33) R=13.1 nm；High-NA EUV (0.55) R=7.85 nm。</text>
+</svg>

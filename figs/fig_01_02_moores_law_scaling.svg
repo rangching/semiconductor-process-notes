@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 580" width="1020" height="580">
+  <defs>
+  <style>
+            .title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #0F172A; }
+            .subtitle { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #475569; }
+            .axis-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #0F172A; }
+            .tick-label { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; fill: #334155; }
+            .legend-text { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; fill: #0F172A; }
+            .annot { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 11.5px; font-weight: 500; fill: #0F172A; }
+            .annot-bold { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #1B365D; }
+            .panel-title { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; font-weight: 700; fill: #1B365D; }
+            .footer { font-family: 'PingFang TC', 'Noto Sans TC', 'Heiti TC', 'Helvetica Neue', Arial, sans-serif; font-size: 10.5px; fill: #475569; }
+            </style>
+  <clipPath id="clip_96_92_875_408"><rect x="96" y="92" width="875" height="408"/></clipPath>
+  <marker id="arrow_0F172A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#0F172A"/></marker>
+  <marker id="arrow_7C3AED" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#7C3AED"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1020" height="580" fill="#FFFFFF" rx="4"/>
+  <text x="510.0" y="30" text-anchor="middle" class="title">圖 1-2  摩爾定律五十五年演進曲線（1971–2026）</text>
+  <text x="510.0" y="51" text-anchor="middle" class="subtitle">單封裝／單晶片電晶體總數演進與架構典範轉移（半對數座標）</text>
+  <rect x="96.0" y="92.0" width="608.1" height="408.0" fill="#EFF6FF" opacity="0.65"/>
+  <text x="400.0" y="118.5" text-anchor="middle" class="annot-bold" opacity="0.88">平面微縮時代（Planar CMOS）</text>
+  <rect x="704.1" y="92.0" width="192.8" height="408.0" fill="#F0FDFA" opacity="0.65"/>
+  <text x="800.4" y="118.5" text-anchor="middle" class="annot-bold" opacity="0.88">3D FinFET 時代</text>
+  <rect x="896.8" y="92.0" width="74.2" height="408.0" fill="#F5F3FF" opacity="0.65"/>
+  <text x="933.9" y="118.5" text-anchor="middle" class="annot-bold" opacity="0.88">GAA+3.5D</text>
+  <line x1="96.0" y1="92.0" x2="96.0" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="96.0" y1="500.0" x2="96.0" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="96.0" y="519.0" text-anchor="middle" class="tick-label">1970</text>
+  <line x1="244.3" y1="92.0" x2="244.3" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="244.3" y1="500.0" x2="244.3" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="244.3" y="519.0" text-anchor="middle" class="tick-label">1980</text>
+  <line x1="392.6" y1="92.0" x2="392.6" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="392.6" y1="500.0" x2="392.6" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="392.6" y="519.0" text-anchor="middle" class="tick-label">1990</text>
+  <line x1="540.9" y1="92.0" x2="540.9" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="540.9" y1="500.0" x2="540.9" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="540.9" y="519.0" text-anchor="middle" class="tick-label">2000</text>
+  <line x1="689.2" y1="92.0" x2="689.2" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="689.2" y1="500.0" x2="689.2" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="689.2" y="519.0" text-anchor="middle" class="tick-label">2010</text>
+  <line x1="837.5" y1="92.0" x2="837.5" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="837.5" y1="500.0" x2="837.5" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="837.5" y="519.0" text-anchor="middle" class="tick-label">2020</text>
+  <line x1="926.5" y1="92.0" x2="926.5" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="926.5" y1="500.0" x2="926.5" y2="505.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="926.5" y="519.0" text-anchor="middle" class="tick-label">2026</text>
+  <line x1="96.0" y1="500.0" x2="971.0" y2="500.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="500.0" x2="96.0" y2="500.0" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="504.0" text-anchor="end" class="tick-label">10³</text>
+  <line x1="96.0" y1="456.9" x2="971.0" y2="456.9" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="456.9" x2="96.0" y2="456.9" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="460.9" text-anchor="end" class="tick-label">10⁴</text>
+  <line x1="96.0" y1="413.9" x2="971.0" y2="413.9" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="413.9" x2="96.0" y2="413.9" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="417.9" text-anchor="end" class="tick-label">10⁵</text>
+  <line x1="96.0" y1="370.8" x2="971.0" y2="370.8" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="370.8" x2="96.0" y2="370.8" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="374.8" text-anchor="end" class="tick-label">10⁶ (1M)</text>
+  <line x1="96.0" y1="327.8" x2="971.0" y2="327.8" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="327.8" x2="96.0" y2="327.8" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="331.8" text-anchor="end" class="tick-label">10⁷</text>
+  <line x1="96.0" y1="284.7" x2="971.0" y2="284.7" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="284.7" x2="96.0" y2="284.7" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="288.7" text-anchor="end" class="tick-label">10⁸</text>
+  <line x1="96.0" y1="241.7" x2="971.0" y2="241.7" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="241.7" x2="96.0" y2="241.7" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="245.7" text-anchor="end" class="tick-label">10⁹ (1B)</text>
+  <line x1="96.0" y1="198.6" x2="971.0" y2="198.6" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="198.6" x2="96.0" y2="198.6" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="202.6" text-anchor="end" class="tick-label">10¹⁰</text>
+  <line x1="96.0" y1="155.6" x2="971.0" y2="155.6" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="155.6" x2="96.0" y2="155.6" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="159.6" text-anchor="end" class="tick-label">10¹¹</text>
+  <line x1="96.0" y1="112.5" x2="971.0" y2="112.5" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="91.0" y1="112.5" x2="96.0" y2="112.5" stroke="#334155" stroke-width="1.2"/>
+  <text x="87.0" y="116.5" text-anchor="end" class="tick-label">10¹² (1T)</text>
+  <path d="M 110.83 484.43 L 114.93 482.64 L 119.03 480.85 L 123.13 479.05 L 127.23 477.26 L 131.32 475.47 L 135.42 473.68 L 139.52 471.89 L 143.62 470.10 L 147.72 468.31 L 151.82 466.52 L 155.92 464.73 L 160.02 462.94 L 164.12 461.15 L 168.21 459.35 L 172.31 457.56 L 176.41 455.77 L 180.51 453.98 L 184.61 452.19 L 188.71 450.40 L 192.81 448.61 L 196.91 446.82 L 201.01 445.03 L 205.10 443.24 L 209.20 441.45 L 213.30 439.65 L 217.40 437.86 L 221.50 436.07 L 225.60 434.28 L 229.70 432.49 L 233.80 430.70 L 237.90 428.91 L 241.99 427.12 L 246.09 425.33 L 250.19 423.54 L 254.29 421.75 L 258.39 419.95 L 262.49 418.16 L 266.59 416.37 L 270.69 414.58 L 274.79 412.79 L 278.88 411.00 L 282.98 409.21 L 287.08 407.42 L 291.18 405.63 L 295.28 403.84 L 299.38 402.05 L 303.48 400.25 L 307.58 398.46 L 311.68 396.67 L 315.77 394.88 L 319.87 393.09 L 323.97 391.30 L 328.07 389.51 L 332.17 387.72 L 336.27 385.93 L 340.37 384.14 L 344.47 382.35 L 348.57 380.55 L 352.66 378.76 L 356.76 376.97 L 360.86 375.18 L 364.96 373.39 L 369.06 371.60 L 373.16 369.81 L 377.26 368.02 L 381.36 366.23 L 385.46 364.44 L 389.55 362.65 L 393.65 360.85 L 397.75 359.06 L 401.85 357.27 L 405.95 355.48 L 410.05 353.69 L 414.15 351.90 L 418.25 350.11 L 422.35 348.32 L 426.44 346.53 L 430.54 344.74 L 434.64 342.95 L 438.74 341.15 L 442.84 339.36 L 446.94 337.57 L 451.04 335.78 L 455.14 333.99 L 459.24 332.20 L 463.33 330.41 L 467.43 328.62 L 471.53 326.83 L 475.63 325.04 L 479.73 323.25 L 483.83 321.45 L 487.93 319.66 L 492.03 317.87 L 496.13 316.08 L 500.22 314.29 L 504.32 312.50 L 508.42 310.71 L 512.52 308.92 L 516.62 307.13 L 520.72 305.34 L 524.82 303.55 L 528.92 301.75 L 533.02 299.96 L 537.11 298.17 L 541.21 296.38 L 545.31 294.59 L 549.41 292.80 L 553.51 291.01 L 557.61 289.22 L 561.71 287.43 L 565.81 285.64 L 569.91 283.85 L 574.00 282.05 L 578.10 280.26 L 582.20 278.47 L 586.30 276.68 L 590.40 274.89 L 594.50 273.10 L 598.60 271.31 L 602.70 269.52 L 606.80 267.73 L 610.89 265.94 L 614.99 264.15 L 619.09 262.35 L 623.19 260.56 L 627.29 258.77 L 631.39 256.98 L 635.49 255.19 L 639.59 253.40 L 643.69 251.61 L 647.78 249.82 L 651.88 248.03 L 655.98 246.24 L 660.08 244.45 L 664.18 242.65 L 668.28 240.86 L 672.38 239.07 L 676.48 237.28 L 680.58 235.49 L 684.67 233.70 L 688.77 231.91 L 692.87 230.12 L 696.97 228.33 L 701.07 226.54 L 705.17 224.75 L 709.27 222.95 L 713.37 221.16 L 717.47 219.37 L 721.56 217.58 L 725.66 215.79 L 729.76 214.00 L 733.86 212.21 L 737.96 210.42 L 742.06 208.63 L 746.16 206.84 L 750.26 205.05 L 754.36 203.25 L 758.45 201.46 L 762.55 199.67 L 766.65 197.88 L 770.75 196.09 L 774.85 194.30 L 778.95 192.51 L 783.05 190.72 L 787.15 188.93 L 791.25 187.14 L 795.34 185.35 L 799.44 183.55 L 803.54 181.76 L 807.64 179.97 L 811.74 178.18 L 815.84 176.39 L 819.94 174.60 L 824.04 172.81 L 828.14 171.02 L 832.23 169.23 L 836.33 167.44 L 840.43 165.65 L 844.53 163.85 L 848.63 162.06 L 852.73 160.27 L 856.83 158.48 L 860.93 156.69 L 865.03 154.90 L 869.12 153.11 L 873.22 151.32 L 877.32 149.53 L 881.42 147.74 L 885.52 145.95 L 889.62 144.15 L 893.72 142.36 L 897.82 140.57 L 901.92 138.78 L 906.01 136.99 L 910.11 135.20 L 914.21 133.41 L 918.31 131.62 L 922.41 129.83 L 926.51 128.04" fill="none" stroke="#D97706" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7,5" clip-path="url(#clip_96_92_875_408)"/>
+  <path d="M 110.83 484.43 L 214.64 437.04 L 318.46 394.98 L 437.10 349.69 L 540.92 300.96 L 629.90 264.77 L 718.88 235.40 L 807.86 205.58 L 837.53 189.86 L 867.19 159.76 L 896.85 141.90 L 926.51 132.17" fill="none" stroke="#2563EB" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="110.83" cy="484.43" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="214.64" cy="437.04" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="318.46" cy="394.98" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="437.10" cy="349.69" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="540.92" cy="300.96" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="629.90" cy="264.77" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="718.88" cy="235.40" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="807.86" cy="205.58" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="837.53" cy="189.86" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="867.19" cy="159.76" r="4.6" fill="#1B365D" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="896.85" cy="141.90" r="5.6" fill="#7C3AED" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <circle cx="926.51" cy="132.17" r="5.6" fill="#7C3AED" stroke="#FFFFFF" stroke-width="1.3" clip-path="url(#clip_96_92_875_408)"/>
+  <rect x="96.0" y="92.0" width="875.0" height="408.0" fill="none" stroke="#334155" stroke-width="1.4"/>
+  <text x="533.5" y="540.0" text-anchor="middle" class="axis-label">發表年份（Year）</text>
+  <text x="44.0" y="296.0" text-anchor="middle" class="axis-label" transform="rotate(-90 44.0 296.0)">電晶體總數（Transistors per Chip / Package）</text>
+  <text x="118.8" y="489.4" text-anchor="start" class="annot" fill="#0F172A">Intel 4004 (10 μm)</text>
+  <text x="222.6" y="442.0" text-anchor="start" class="annot" fill="#0F172A">Intel 8086 (3 μm)</text>
+  <text x="326.5" y="400.0" text-anchor="start" class="annot" fill="#0F172A">Intel 386 (1.5 μm)</text>
+  <text x="445.1" y="354.7" text-anchor="start" class="annot" fill="#0F172A">Pentium (0.8 μm)</text>
+  <text x="548.9" y="306.0" text-anchor="start" class="annot" fill="#0F172A">Pentium 4 (180 nm)</text>
+  <text x="637.9" y="270.8" text-anchor="start" class="annot" fill="#0F172A">Core 2 Duo (65 nm)</text>
+  <text x="706.9" y="225.4" text-anchor="end" class="annot" fill="#0F172A">Ivy Bridge (22nm FinFET)</text>
+  <text x="817.9" y="213.6" text-anchor="start" class="annot" fill="#0F172A">Apple A12 (7nm)</text>
+  <text x="825.5" y="181.9" text-anchor="end" class="annot" fill="#0F172A">Apple M1 (5nm)</text>
+  <line x1="843.2" y1="165.8" x2="867.2" y2="159.8" stroke="#0F172A" stroke-width="1.1" marker-end="url(#arrow_0F172A)"/>
+  <text x="843.2" y="175.8" text-anchor="end" class="annot" fill="#0F172A">NVIDIA H100 (4nm)</text>
+  <line x1="858.8" y1="123.9" x2="896.8" y2="141.9" stroke="#7C3AED" stroke-width="1.1" marker-end="url(#arrow_7C3AED)"/>
+  <text x="858.8" y="119.9" text-anchor="end" class="annot-bold" fill="#7C3AED">Blackwell B200 (雙晶粒)</text>
+  <line x1="910.5" y1="168.2" x2="926.5" y2="132.2" stroke="#7C3AED" stroke-width="1.1" marker-end="url(#arrow_7C3AED)"/>
+  <text x="910.5" y="178.2" text-anchor="end" class="annot-bold" fill="#7C3AED">2026 3.5D 系統 (N2/A16+HBM4)</text>
+  <rect x="113.5" y="149.1" width="325.0" height="72.0" rx="5" fill="#FFFFFF" fill-opacity="0.93" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="123.5" y1="162.1" x2="147.5" y2="162.1" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="155.5" y="166.1" class="legend-text">實測代表性單晶粒處理器（Monolithic Die）</text>
+  <line x1="123.5" y1="182.1" x2="147.5" y2="182.1" stroke="#7C3AED" stroke-width="2.5"/>
+  <text x="155.5" y="186.1" class="legend-text">多晶粒先進封裝系統（Chiplet / 3.5D Package）</text>
+  <line x1="123.5" y1="202.1" x2="147.5" y2="202.1" stroke="#D97706" stroke-width="2.5" stroke-dasharray="7,5"/>
+  <text x="155.5" y="206.1" class="legend-text">理想摩爾定律趨勢線（每 24 個月翻倍）</text>
+  <text x="28" y="568" class="footer">資料依據：Intel、Apple、NVIDIA 公開晶片規格與 IEEE IRDS (2024–2026) 路線圖整理繪製。</text>
+</svg>
