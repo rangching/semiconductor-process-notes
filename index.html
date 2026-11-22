@@ -201,6 +201,14 @@ textarea:focus,input:focus{outline:2px solid var(--x);outline-offset:1px}
 .notes ol{margin:6px 0 0;padding-left:22px}
 .stage .ctrl.opts{flex-wrap:wrap;margin-top:8px}
 .stage .tlabel{right:24px;line-height:1.5}
+a.icard{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:12px 16px;margin-bottom:18px;color:var(--text);text-decoration:none!important;transition:border-color .15s,background .15s}
+a.icard:hover{background:var(--surface2);border-color:var(--accent)}
+a.icard .ic3d{flex:none;font-family:var(--f-mono);font-size:13px;font-weight:600;color:var(--bg);background:var(--accent);border-radius:8px;padding:6px 9px}
+a.icard .itxt{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.5}
+a.icard .itxt b{font-weight:600}
+a.icard .itxt span{color:var(--dim);font-size:13.5px}
+a.icard .igo{flex:none;font-size:13px;color:var(--accent);white-space:nowrap}
+@media (max-width:520px){a.icard{flex-wrap:wrap}a.icard .igo{width:100%;padding-left:2px}}
 /* /SEMI-PATCH */
 
 /* flashcards */
@@ -466,6 +474,13 @@ function viewHome() {
   startHero();
 }
 
+/* SEMI-INTERACTIVE：單元頁的互動 3D 入口 */
+function interCard(u) {
+  const it = u.interactive;
+  if (!it || !it.file) return "";
+  return `<a class="icard" href="${esc(it.file)}" target="_blank" rel="noopener"><span class="ic3d">3D</span><span class="itxt"><b>${esc(it.title)}</b><span>${esc(it.hint || "")}</span></span><span class="igo">打開互動 3D ↗</span></a>`;
+}
+/* /SEMI-INTERACTIVE */
 function viewUnit(u, tab) {
   const s = st(u.id), p = progress(u);
   const idx = UNITS.indexOf(u), prev = UNITS[idx - 1], next = UNITS[idx + 1];
@@ -483,6 +498,7 @@ function viewUnit(u, tab) {
     <div class="prog">學習進度 ${p.pct}%${s.done ? ` · <span class="ok">已完成</span>` : ""}<div class="pbar"><i style="width:${p.pct}%"></i></div></div>
   </div>
   ${u.code ? `<div class="fbox code"><pre class="cy">${hl(u.code)}</pre></div>` : u.formula ? `<div class="fbox">$$${u.formula}$$</div>` : ""}
+  ${interCard(u)}
   <nav class="tabs">${tabs.map(([k, l, n]) => `<a href="#${u.id}/${k}" class="${k === tab ? "on" : ""}">${l}${n ? `<span class="n">${n}</span>` : ""}</a>`).join("")}</nav>
   <div class="panel">${body}</div>
   <div class="ufoot">

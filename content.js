@@ -339,38 +339,43 @@ window.UNITS = [
     "title": "開場：每步 99.9%，走完 1000 步還剩多少？"
    },
    {
-    "t": 95,
+    "t": 79,
     "title": "製造全景：FEOL、MEOL、BEOL 與測試封裝"
    },
    {
-    "t": 200,
+    "t": 173,
     "title": "良率的四個構面與一片晶圓切得出幾顆晶粒"
    },
    {
-    "t": 300,
+    "t": 263,
     "title": "缺陷模型：Poisson、Murphy、Seeds 與負二項式"
    },
    {
-    "t": 420,
-    "title": "小晶片的良率帳：一顆 8 cm² 對上兩顆 4.2 cm²"
+    "t": 423,
+    "title": "小晶片的良率帳：一顆 8 平方公分對上兩顆 4.2 平方公分"
    },
    {
-    "t": 530,
-    "title": "無塵室：ISO 等級、垂直層流與 FOUP"
+    "t": 537,
+    "title": "無塵室：ISO 等級、垂直層流與晶圓傳送盒"
    },
    {
-    "t": 640,
+    "t": 670,
     "title": "清洗與吸雜：超純水、RCA 與三道防線"
    },
    {
-    "t": 745,
+    "t": 810,
     "title": "先進封裝的系統良率：已知良好晶粒"
    },
    {
-    "t": 840,
+    "t": 865,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "無塵室微環境與晶圓圖",
+   "file": "interactive/u02_cleanroom_wafer_map.html",
+   "hint": "拉動 D0 和晶粒面積，看紅色晶粒怎麼變多；再按「濾網失效」看良率和每顆成本。"
+  },
   "formula": "Y_{\\text{NB}}=\\left(1+\\frac{D_0A}{\\alpha}\\right)^{-\\alpha}\\quad\\xrightarrow{\\ \\alpha\\to\\infty\\ }\\quad e^{-D_0A}",
   "pre": [
    {
