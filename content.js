@@ -607,38 +607,43 @@ window.UNITS = [
     "title": "開場：晶片升溫 100 K，漏電為什麼跟著暴增？"
    },
    {
-    "t": 95,
+    "t": 65,
     "title": "能帶與載子統計：質量作用定律"
    },
    {
-    "t": 190,
+    "t": 214,
     "title": "漂移、擴散與速度飽和"
    },
    {
-    "t": 290,
+    "t": 314,
     "title": "p-n 接面：內建電位與空乏區"
    },
    {
-    "t": 390,
+    "t": 405,
     "title": "MOS 電容的四個區：累積、平帶、空乏、反轉"
    },
    {
-    "t": 500,
+    "t": 492,
     "title": "臨界電壓與高低頻 C-V 曲線"
    },
    {
-    "t": 610,
+    "t": 668,
     "title": "從平方律到速度飽和：縮短通道不再等於更大電流"
    },
    {
-    "t": 715,
+    "t": 761,
     "title": "短通道效應與三重解方：HKMG、FinFET、GAA"
    },
    {
-    "t": 840,
+    "t": 906,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "MOSFET 剖面與閘極電壓",
+   "file": "interactive/u03_mosfet_gate_voltage.html",
+   "hint": "拖動閘極電壓，看電洞被推走、電子鋪成通道。按「升溫到 400 K」，看臨界電壓怎麼掉。"
+  },
   "formula": "V_{th}=V_{FB}+2\\phi_F+\\frac{\\sqrt{4\\varepsilon_{\\text{si}}\\,q\\,N_a\\,\\phi_F}}{C_{ox}},\\qquad \\phi_F=\\frac{k_BT}{q}\\ln\\frac{N_a}{n_i}",
   "pre": [
    {
