@@ -1143,38 +1143,43 @@ window.UNITS = [
     "title": "開場：要活化又不能擴散，熱預算怎麼分配？"
    },
    {
-    "t": 85,
+    "t": 69,
     "title": "爐管與單片快速熱製程的雙軌分工"
    },
    {
-    "t": 180,
+    "t": 138,
     "title": "Deal-Grove 模型：氧化劑要穿過氧化層才找得到矽"
    },
    {
-    "t": 310,
+    "t": 269,
     "title": "線性區、拋物線區與兩段氧化的等效時間"
    },
    {
-    "t": 420,
+    "t": 412,
     "title": "晶向、壓力、ISSG 與 SiC 氧化"
    },
    {
-    "t": 510,
+    "t": 500,
     "title": "Fick 定律：erfc 預沉積與高斯驅入"
    },
    {
-    "t": 630,
+    "t": 623,
     "title": "點缺陷擴散：OED、TED 與箱型輪廓"
    },
    {
-    "t": 730,
+    "t": 728,
     "title": "從爐管到毫秒雷射退火：擴散長度只剩幾奈米"
    },
    {
-    "t": 840,
+    "t": 854,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "氧化爐管與 Deal-Grove",
+   "file": "interactive/u05_oxidation_furnace_deal_grove.html",
+   "hint": "調爐管溫度、切換乾氧濕氧，看氧化層長多厚。再加一層初始氧化層，看等效時間怎麼變。"
+  },
   "formula": "x_{ox}^2 + A\\,x_{ox} = B\\,(t+\\tau),\\qquad \\tau = \\frac{x_i^2 + A\\,x_i}{B}",
   "pre": [
    {
