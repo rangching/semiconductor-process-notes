@@ -5,7 +5,7 @@
 //  noVoice ：無旁白版 ID          mp4    ：自架 MP4（沒有 YouTube 時才用）
 // ============================================================
 
-window.SERIES_PLAYLIST = ""; // 系列播放清單網址（公開或不公開後才填）
+window.SERIES_PLAYLIST = "https://www.youtube.com/playlist?list=PLLZHjORIjZG4"; // 系列播放清單網址（公開或不公開後才填）
 window.SERIES_TRAILER = "";  // 系列前導片 ID（延續型系列）
 
 window.VIDEO_LINKS = {
@@ -15,7 +15,7 @@ window.VIDEO_LINKS = {
   u04: { youtube: "QGYmnez-nL8", mp4: "", duration: "15:52", sections: [0, 67.2, 172.7, 280.6, 480.6, 576.1, 656.7, 790, 895.1], noVoice: "", short: "" },
   u05: { youtube: "7Cn-NOzfqXA", mp4: "", duration: "15:12", sections: [0, 69.1, 138.1, 269, 412.5, 499.7, 623.4, 728.4, 853.7], noVoice: "", short: "" },
   u06: { youtube: "_EIBApydilg", mp4: "", duration: "943.23", sections: [0, 63.5, 228.3, 344.4, 423.9, 518, 634.1, 754, 881.5], noVoice: "", short: "" },
-  u07: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
+  u07: { youtube: "MezPkusx_8I", mp4: "", duration: "15:55", sections: [0, 65.7, 201.5, 273.7, 392.7, 515.2, 652.1, 762.7, 897.6], noVoice: "", short: "" },
   u08: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
   u09: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
   u10: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
