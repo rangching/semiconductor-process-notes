@@ -1679,38 +1679,43 @@ window.UNITS = [
     "title": "開場：不加熱晶圓，也要把氣體分子打碎"
    },
    {
-    "t": 90,
+    "t": 66,
     "title": "電漿是什麼：準電中性與非熱平衡"
    },
    {
-    "t": 190,
+    "t": 202,
     "title": "四種碰撞：游離、激發、解離、附著"
    },
    {
-    "t": 280,
+    "t": 274,
     "title": "德拜長度與電漿頻率：電子跟得上，離子跟不上"
    },
    {
-    "t": 400,
+    "t": 393,
     "title": "鞘層、波姆速度與浮動電位"
    },
    {
-    "t": 510,
+    "t": 515,
     "title": "直流自偏壓與 Child-Langmuir：離子被加速多少"
    },
    {
-    "t": 620,
+    "t": 652,
     "title": "偏壓頻率與離子能量分佈：雙峰還是單峰"
    },
    {
-    "t": 720,
+    "t": 763,
     "title": "反應器：CCP、ICP、遠距電漿與脈衝電漿"
    },
    {
-    "t": 850,
+    "t": 898,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "電漿蝕刻腔與鞘層",
+   "file": "interactive/u07_plasma_chamber_sheath.html",
+   "hint": "把偏壓頻率切到 2 MHz，看能量分佈裂成兩峰。再把壓力調高，看鞘層什麼時候開始碰撞。"
+  },
   "formula": "J_i = 0.61\\,q\\,n_e\\,u_B = \\frac{4}{9}\\,\\varepsilon_0\\sqrt{\\frac{2q}{M_i}}\\,\\frac{V_s^{3/2}}{s^2},\\qquad u_B = \\sqrt{\\frac{k_BT_e}{M_i}}",
   "pre": [
    {
@@ -1836,7 +1841,7 @@ window.UNITS = [
    },
    {
     "h": "直流自偏壓、Child-Langmuir 與離子能量分佈",
-    "b": "$$\\frac{V_1}{V_2} \\approx \\left(\\frac{A_2}{A_1}\\right)^n\\ (1.5 \\le n \\le 4),\\qquad J_i = \\frac{4}{9}\\varepsilon_0\\sqrt{\\frac{2q}{M_i}}\\frac{V_s^{3/2}}{s^2}$$<b>讀法</b>：射頻電極串了阻隔電容，一個週期內淨直流電流要為零。晶圓電極面積 $A_1$ 比接地腔壁 $A_2$ 小，它那一側的鞘層壓降就大得多，晶圓自動累積幾百到上千伏的負直流自偏壓。鞘層厚度則由 Child-Langmuir 空間電荷定律決定：電壓越大，鞘層越厚。<br><br><b>小例子</b>（教材例題 7-2，承例題 7-1，$V_s = 400\\ \\text{V}$）：<ol><li>$J_i = 0.61\\times1.602\\times10^{-19}\\times10^{17}\\times2690 \\approx 26.3\\ \\text{A/m}^2$（約 $2.63\\ \\text{mA/cm}^2$）。</li><li>代入 Child-Langmuir 解出 $s \\approx 1.62\\ \\text{mm}$，約 $40\\lambda_D$。</li><li>電荷交換平均自由程約 $3.0\\ \\text{mm}$，比鞘層厚，離子大多不碰撞就打到晶圓，方向性好。</li><li>末速約 $4.39\\times10^4\\ \\text{m/s}$，穿越時間 $\\tau_{\\text{ion}} \\approx 3s/v \\approx 111\\ \\text{ns}$，約是 13.56 MHz 週期（73.7 ns）的 1.5 倍。</li></ol><b>頻率怎麼決定 IEDF</b>：同一個鞘層，2 MHz 的週期是 500 ns，離子穿越時間只有它的約 0.22 倍，離子感受到瞬間的鞘層電壓，能量分佈裂成寬的雙峰，高能峰適合打穿 3D NAND 的深孔；60 MHz 的週期只有 16.7 ns，離子要經過約 6.6 個週期才穿過去，只感受到平均電壓，分佈收成窄單峰，適合低損傷的原子層蝕刻。教材用牛頓運動方程逐步積分（假設平均鞘壓 275 V、射頻振幅 220 V、鞘層 1.6 mm）得到能量展寬：2 MHz 約 420.6 eV、13.56 MHz 約 206.1 eV、60 MHz 約 53.1 eV。<figure class=\"fig\"><img src=\"figs/fig_07_01_plasma_sheath_iedf.svg\" alt=\"不對稱射頻反應器的軸向電位剖面，以及 2 MHz 與 60 MHz 偏壓下的離子能量分佈\" loading=\"lazy\"><figcaption>左邊看電漿電位永遠最高、晶圓端掉成深負偏壓，離子被一路往下加速；右邊看 2 MHz 偏壓給出寬的雙峰，60 MHz 收斂成窄單峰。</figcaption></figure>"
+    "b": "$$\\frac{V_1}{V_2} \\approx \\left(\\frac{A_2}{A_1}\\right)^n\\ (1.5 \\le n \\le 4),\\qquad J_i = \\frac{4}{9}\\varepsilon_0\\sqrt{\\frac{2q}{M_i}}\\frac{V_s^{3/2}}{s^2}$$<b>讀法</b>：射頻電極串了阻隔電容，一個週期內淨直流電流要為零。晶圓電極面積 $A_1$ 比接地腔壁 $A_2$ 小，它那一側的鞘層壓降就大得多，晶圓自動累積幾百到上千伏的負直流自偏壓。鞘層厚度則由 Child-Langmuir 空間電荷定律決定：電壓越大，鞘層越厚。<br><br><b>小例子</b>（教材例題 7-2，承例題 7-1，$V_s = 400\\ \\text{V}$）：<ol><li>$J_i = 0.61\\times1.602\\times10^{-19}\\times10^{17}\\times2690 \\approx 26.3\\ \\text{A/m}^2$（約 $2.63\\ \\text{mA/cm}^2$）。</li><li>代入 Child-Langmuir 解出 $s \\approx 1.62\\ \\text{mm}$，約 $40\\lambda_D$。</li><li>電荷交換平均自由程約 $3.0\\ \\text{mm}$，比鞘層厚，離子大多不碰撞就打到晶圓，方向性好。</li><li>末速約 $4.39\\times10^4\\ \\text{m/s}$，穿越時間 $\\tau_{\\text{ion}} \\approx 3s/v \\approx 111\\ \\text{ns}$，約是 13.56 MHz 週期（73.7 ns）的 1.5 倍。</li></ol><b>頻率怎麼決定 IEDF</b>：同一個鞘層，2 MHz 的週期是 500 ns，離子穿越時間只有它的約 0.22 倍，離子感受到瞬間的鞘層電壓，能量分佈裂成寬的雙峰，高能峰適合打穿 3D NAND 的深孔；60 MHz 的週期只有 16.7 ns，離子要經過約 6.6 個週期才穿過去，只感受到平均電壓，分佈收成窄單峰，適合低損傷的原子層蝕刻。教材用牛頓運動方程逐步積分（假設平均鞘壓 275 V、射頻振幅 220 V、鞘層 1.6 mm）得到能量展寬：2 MHz 約 420.6 eV、13.56 MHz 約 206.1 eV、60 MHz 約 53.1 eV。用同一支程式把相位取密來畫分佈，60 MHz 其實仍是兩個峰，只是相距約 53 eV、擠成一根窄峰；影片照這個實算結果畫。<figure class=\"fig\"><img src=\"figs/fig_07_01_plasma_sheath_iedf.svg\" alt=\"不對稱射頻反應器的軸向電位剖面，以及 2 MHz 與 60 MHz 偏壓下的離子能量分佈\" loading=\"lazy\"><figcaption>左邊看電漿電位永遠最高、晶圓端掉成深負偏壓，離子被一路往下加速；右邊看 2 MHz 偏壓給出寬的雙峰，60 MHz 收斂成窄單峰。</figcaption></figure>"
    },
    {
     "h": "反應器與脈衝電漿",
