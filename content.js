@@ -2479,38 +2479,43 @@ window.UNITS = [
     "title": "開場：深溝槽填到一半就封口，裡面留下空洞"
    },
    {
-    "t": 85,
+    "t": 80,
     "title": "CVD 串聯模型：邊界層傳輸和表面反應誰比較慢"
    },
    {
-    "t": 200,
+    "t": 220,
     "title": "兩個控制區與階梯覆蓋：黏附係數決定能不能到底"
    },
    {
-    "t": 310,
+    "t": 349,
     "title": "降低壓力的魔法：LPCVD 把轉折溫度往上推"
    },
    {
-    "t": 410,
+    "t": 433,
     "title": "五種沉積機台：LPCVD、PECVD、HDP-CVD、FCVD、ALD"
    },
    {
-    "t": 530,
+    "t": 540,
     "title": "原子層沉積：兩個半反應各自停下，數圈數控厚度"
    },
    {
-    "t": 645,
+    "t": 667,
     "title": "區域選擇性沉積：讓薄膜只長在對的材料上"
    },
    {
-    "t": 735,
+    "t": 738,
     "title": "介電質兩極化：閘極要高 k，互連要低 k"
    },
    {
-    "t": 850,
+    "t": 886,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "ALD 反應腔與深溝槽覆蓋實驗台",
+   "file": "interactive/u10_ald_step_coverage_lab.html",
+   "hint": "把常壓溫度調到 900 °C，看溝槽怎麼封口。再切到 ALD，拉圈數，看膜一圈圈包上去。"
+  },
   "formula": "R = \\frac{k_s\\,h_g}{k_s + h_g}\\,\\frac{C_g}{N_1},\\qquad k_s = k_0\\,e^{-E_a/k_BT},\\quad h_g = \\frac{D_g}{\\delta}",
   "pre": [
    {
