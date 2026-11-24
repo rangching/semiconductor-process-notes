@@ -2744,41 +2744,46 @@ window.UNITS = [
   "sections": [
    {
     "t": 0,
-    "title": "開場：電晶體越來越快，導線卻越來越慢"
+    "title": "開場：電晶體越來越快，導線反而越來越慢"
    },
    {
-    "t": 90,
+    "t": 74,
     "title": "RC 延遲與階層式金屬層：MEOL、局部、中段、全域"
    },
    {
-    "t": 195,
+    "t": 182,
     "title": "PVD 與離子化濺鍍：把阻障層鋪進深溝槽"
    },
    {
-    "t": 290,
+    "t": 256,
     "title": "銅雙鑲嵌與電鍍超填：三種添加劑怎麼分工"
    },
    {
-    "t": 410,
+    "t": 383,
     "title": "尺寸效應：阻障層、表面散射、晶界散射三面夾擊"
    },
    {
-    "t": 530,
+    "t": 517,
     "title": "銅、釕、鉬的交叉點：看 ρ₀λ 和要不要阻障層"
    },
    {
-    "t": 640,
+    "t": 669,
     "title": "電遷移：電子風、Black 方程與 Blech 長度"
    },
    {
-    "t": 755,
+    "t": 821,
     "title": "晶背供電網路：訊號留正面，電源搬背面"
    },
    {
-    "t": 850,
+    "t": 913,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "雙鑲嵌互連堆疊與尺寸效應實驗台",
+   "file": "interactive/u11_damascene_size_effect_lab.html",
+   "hint": "把線寬拉到 10 nm，比比看銅和釕誰的電阻暴增。再把電流密度調高，看介層孔底部長出空洞。"
+  },
   "formula": "\\rho_{\\text{eff}}(w)=\\frac{\\rho_0}{f_{\\text{area}}}\\left[1+\\frac{3}{8}(1-p)\\,\\lambda\\left(\\frac{1}{w_{\\text{eff}}}+\\frac{1}{h_{\\text{eff}}}\\right)+\\frac{3}{2}\\,\\frac{\\lambda}{w_{\\text{eff}}}\\,\\frac{R_{\\text{gb}}}{1-R_{\\text{gb}}}\\right]",
   "pre": [
    {
