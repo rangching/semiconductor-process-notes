@@ -3283,38 +3283,43 @@ window.UNITS = [
     "title": "開場：每一站都合格，整條線卻還是出問題"
    },
    {
-    "t": 85,
+    "t": 81,
     "title": "熱預算由前往後遞減，污染分區隔離"
    },
    {
-    "t": 190,
+    "t": 178,
     "title": "量測一：CD-SEM 與 OCD 光學散射"
    },
    {
-    "t": 290,
+    "t": 264,
     "title": "量測二：CD-SAXS 與電子束檢測，看見埋起來的結構"
    },
    {
-    "t": 385,
+    "t": 344,
     "title": "套準誤差：系統項回饋，隨機項 RSS 合成"
    },
    {
-    "t": 480,
+    "t": 444,
     "title": "SPC 管制圖與 Western Electric 規則"
    },
    {
-    "t": 580,
+    "t": 558,
     "title": "Cp 與 Cpk：平均值偏一點，不良率暴增"
    },
    {
-    "t": 690,
+    "t": 704,
     "title": "Run-to-Run APC：雙重 EWMA 追著漂移跑"
    },
    {
-    "t": 845,
+    "t": 896,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "SPC 管制圖與 EWMA 閉迴路實驗台",
+   "file": "interactive/u13_spc_ewma_control_lab.html",
+   "hint": "把平均值拉偏 0.35 nm，看不良率怎麼跳。再打開漂移，切換開迴路和雙重 EWMA，看超規點消失。"
+  },
   "formula": "C_p=\\frac{\\text{USL}-\\text{LSL}}{6\\sigma},\\qquad C_{pk}=\\min\\!\\left(\\frac{\\text{USL}-\\mu}{3\\sigma},\\ \\frac{\\mu-\\text{LSL}}{3\\sigma}\\right)",
   "pre": [
    {
@@ -3546,38 +3551,43 @@ window.UNITS = [
     "title": "開場：28 nm 平面 CMOS 為什麼值得從頭走一遍"
    },
    {
-    "t": 85,
+    "t": 80,
     "title": "淺溝槽隔離與逆行雙井：先劃好 NMOS 和 PMOS 的地盤"
    },
    {
-    "t": 195,
+    "t": 171,
     "title": "虛擬閘極、延伸區與暈環佈植：用閘極自己當遮罩"
    },
    {
-    "t": 300,
+    "t": 248,
     "title": "間隙壁與嵌入式 SiGe：把應力擠進通道"
    },
    {
-    "t": 405,
+    "t": 309,
     "title": "活化退火與替代金屬閘極：先放假閘極，最後才換真的"
    },
    {
-    "t": 515,
+    "t": 405,
     "title": "矽化物與中段接觸：交棒給金屬互連"
    },
    {
-    "t": 600,
+    "t": 474,
     "title": "FD-SOI：不摻雜的超薄通道，加上背面那支旋鈕"
    },
    {
-    "t": 715,
+    "t": 655,
     "title": "記憶體基礎：SRAM 蝴蝶曲線、DRAM 電荷分享與快閃記憶體"
    },
    {
-    "t": 835,
+    "t": 890,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "逐步堆疊的 CMOS 剖面",
+   "file": "interactive/u14_cmos_stepwise_stack.html",
+   "hint": "把步驟滑桿從裸晶圓拉到接觸，看每一層在第幾步出現。再切到 FD-SOI，背閘極拉到負 1.5 V，看漏電。"
+  },
   "formula": "\\gamma_{\\text{BB}} \\equiv -\\frac{\\partial V_{th}}{\\partial V_{BG}} = \\frac{\\text{EOT}_{\\text{eff}}}{t_{\\text{BOX}} + (\\varepsilon_{\\text{ox}}/\\varepsilon_{\\text{Si}})\\,t_{\\text{Si}}}",
   "pre": [
    {
@@ -3809,38 +3819,43 @@ window.UNITS = [
     "title": "開場：平面電晶體撞牆之後，只能往上長"
    },
    {
-    "t": 90,
+    "t": 85,
     "title": "靜電特徵長度：閘極包得越多，閘長能縮得越短"
    },
    {
-    "t": 195,
+    "t": 220,
     "title": "從 FinFET 到 GAA 奈米片：四道新增的關鍵製程"
    },
    {
-    "t": 320,
+    "t": 343,
     "title": "CFET：把 nMOS 疊到 pMOS 上面（路線圖）"
    },
    {
-    "t": 410,
+    "t": 418,
     "title": "3D NAND：字串堆疊、鉬字元線與 CBA 鍵合"
    },
    {
-    "t": 520,
+    "t": 512,
     "title": "DRAM 與 HBM：用堆疊和寬匯流排換頻寬"
    },
    {
-    "t": 620,
+    "t": 604,
     "title": "2.5D 封裝：矽中介層、有機中介層與局部矽橋"
    },
    {
-    "t": 725,
+    "t": 679,
     "title": "3D 混合鍵合、3.5D 與共同封裝光學"
    },
    {
-    "t": 840,
+    "t": 830,
     "title": "總結與下集預告"
    }
   ],
+  "interactive": {
+   "title": "GAA 奈米片與 3.5D 堆疊",
+   "file": "interactive/u15_gaa_3p5d_stack_lab.html",
+   "hint": "把閘長拉到 4λ 以下，看漏電轉紅。切到封裝，換成微凸塊、功耗拉到 1000 W，看底層溫度轉紅。"
+  },
   "formula": "\\lambda_{\\text{GAA}} \\approx \\sqrt{\\frac{\\varepsilon_{\\text{Si}}}{4\\,\\varepsilon_{\\text{ox}}}\\,T_{\\text{sh}}\\,\\text{EOT}},\\qquad L_{g,\\min} \\approx 4\\lambda",
   "pre": [
    {
@@ -4072,38 +4087,43 @@ window.UNITS = [
     "title": "開場：縮尺寸以外，還有哪些旋鈕可以轉"
    },
    {
-    "t": 85,
+    "t": 73,
     "title": "三個時代：幾何微縮、DTCO 到 STCO"
    },
    {
-    "t": 190,
+    "t": 168,
     "title": "二維材料電晶體：0.65 nm 厚的通道（研發中）"
    },
    {
-    "t": 300,
+    "t": 284,
     "title": "接觸電阻：二維電晶體真正的戰場"
    },
    {
-    "t": 395,
+    "t": 381,
     "title": "記憶體牆與存算一體"
    },
    {
-    "t": 510,
+    "t": 548,
     "title": "互連能耗地圖：混合鍵合、矽橋與共同封裝光學"
    },
    {
-    "t": 615,
+    "t": 646,
     "title": "路線圖預估：電晶體密度往哪裡走"
    },
    {
-    "t": 710,
+    "t": 723,
     "title": "數位分身晶圓廠與永續製造"
    },
    {
-    "t": 830,
+    "t": 854,
     "title": "總結：16 集走過的路"
    }
   ],
+  "interactive": {
+   "title": "AI 推論能耗地圖：搬資料還是就地算",
+   "file": "interactive/u16_ai_energy_map_lab.html",
+   "hint": "切換兩種架構，看搬運占比從九成掉到零。再把互連換成銅線、拉長距離，看能耗變紅。"
+  },
   "formula": "E_{\\text{total}} = N_{\\text{bit}}\\,E_{\\text{bit}} + N_{\\text{MAC}}\\,E_{\\text{MAC}},\\qquad P = \\text{BW}\\times E_{\\text{bit}}",
   "pre": [
    {
