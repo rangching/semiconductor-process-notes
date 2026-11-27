@@ -21,8 +21,8 @@ window.VIDEO_LINKS = {
   u10: { youtube: "PqTjw1-CZlc", mp4: "", duration: "15:46", sections: [0, 80.2, 219.9, 349.4, 433.1, 540.2, 667.4, 738.1, 885.5], noVoice: "", short: "" },
   u11: { youtube: "TzpSine1KXA", mp4: "", duration: "16:11", sections: [0, 74.9, 182, 256.4, 383.9, 517.1, 669.1, 821.8, 913.2], noVoice: "", short: "" },
   u12: { youtube: "mYz4DBBBovA", mp4: "", duration: "15:47", sections: [0, 77.7, 164, 255.5, 436.2, 558.5, 688.1, 819, 887.4], noVoice: "", short: "" },
-  u13: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
-  u14: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
-  u15: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" },
-  u16: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" }
+  u13: { youtube: "AzqPuQGrwic", mp4: "", duration: "15:49", sections: [0, 80.9, 178.5, 264.5, 344.3, 443.5, 558.3, 704.5, 895.9], noVoice: "", short: "" },
+  u14: { youtube: "YSgsKNlVVRE", mp4: "", duration: "15:55", sections: [0, 79.9, 170.7, 247.8, 308.7, 405.3, 474.1, 655.3, 889.9], noVoice: "", short: "" },
+  u15: { youtube: "hLNNYzQPufk", mp4: "", duration: "14:44", sections: [0, 84.6, 219.9, 343.1, 417.7, 511.7, 604.4, 678.7, 829.5], noVoice: "", short: "" },
+  u16: { youtube: "zQvD-yukmy0", mp4: "", duration: "15:51", sections: [0, 73.5, 167.5, 283.9, 381.3, 547.5, 646.2, 722.9, 854.1], noVoice: "", short: "" }
 };
